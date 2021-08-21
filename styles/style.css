@@ -1,0 +1,64 @@
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 95%;
+    background-color: green;
+}
+
+h4 {
+    color: white;
+}
+
+.image-space {
+    height: 160px;
+}
+
+.pkmn-img {
+    height: inherit;
+} 
+
+.type {
+    margin-right: 3px;
+    width: 70px;
+    display: flex;
+   justify-content: center;
+   align-content: center;
+   color: white;
+}
+
+.pkmn-properties {
+    margin: 20px;
+}
+
+.pkmn-moves {
+    list-style: none;
+    padding: 0px;
+}
+
+.pkmn-stats {
+    display: flex;
+    flex-direction: column;
+}
+
+.stats-title {
+    align-self: center;
+}
+
+.stats-names {
+    list-style: none;
+    border-right: solid 1px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stats-graphics {
+    list-style: none;
+}
+
